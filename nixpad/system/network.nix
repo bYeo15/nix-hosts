@@ -33,6 +33,6 @@
 
         insertNameservers = [ "1.1.1.1" "1.0.0.1" ];
 
-        ensureProfiles.profiles = extlib.filterTagged [ "profile" ] [ "home" "external" ] config.netConn.connections;
+        ensureProfiles.profiles = extlib.filterTagged "profile" [ "home" "external" ] config.netConn.connections;
     };
 }
