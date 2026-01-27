@@ -1,8 +1,8 @@
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, secrets, ... }:
 
 {
     age.secrets.vpnCred = {
-        file = config.ageSecretFiles."vpnCred";
+        file = secrets.vpnCred;
     };
 
     services.openvpn.servers = {
