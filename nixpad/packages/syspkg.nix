@@ -1,4 +1,4 @@
-{ config, lib, pkgs, externalPkgs, ... }:
+{ config, lib, pkgs, externalPackages, ... }:
 
 {
     nixpkgs.config.allowUnfree = true;
@@ -24,7 +24,7 @@
         curl
         wget
 
-        externalPkgs.agenix
+        externalPackages.agenix
 
         moonlight-qt
     ];
