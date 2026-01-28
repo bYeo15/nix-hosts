@@ -25,6 +25,7 @@
         wget
 
         externalPackages.agenix
+        externalPackages.home-manager
 
         moonlight-qt
     ];
