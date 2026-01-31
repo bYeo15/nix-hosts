@@ -1,8 +1,6 @@
-{ config, lib, pkgs, ... }:
+{ sources, config, lib, pkgs, ... }:
 
 {
-    nix.settings.experimental-features = [ "nix-command" "flakes" ];
-
     nix.optimise = {
         automatic = true;
     };
@@ -15,5 +13,13 @@
 
     nix.settings = {
         trusted-users = [ "root" "ben" ];
+        experimental-features = [ "nix-command" "flakes" ];
+    };
+
+    nix.registry.nixpkgs = {
+        to = {
+            type = "path";
+            path = sources.nixpkgs.outPath;
+        };
     };
 }
