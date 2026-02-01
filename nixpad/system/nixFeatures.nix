@@ -22,4 +22,6 @@
             path = sources.nixpkgs.outPath;
         };
     };
+
+    nixpkgs.flake.source = sources.nixpkgs.outPath;
 }
