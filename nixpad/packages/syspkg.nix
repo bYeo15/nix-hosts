@@ -1,4 +1,4 @@
-{ config, lib, pkgs, externalPackages, ... }:
+{ config, lib, pkgs, extpkgs, ... }:
 
 {
     nixpkgs.config.allowUnfree = true;
@@ -26,8 +26,8 @@
         curl
         wget
 
-        externalPackages.agenix
-        externalPackages.home-manager
+        extpkgs.agenix
+        extpkgs.home-manager
 
         moonlight-qt
     ];
