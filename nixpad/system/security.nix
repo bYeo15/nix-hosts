@@ -7,6 +7,9 @@
 
         pam = {
             services.swaylock = {};
+            loginLimits = [
+                { domain = "@realtime"; item = "rtprio"; type = "-"; value = 1; }
+            ];
         };
 
         sudo = {
