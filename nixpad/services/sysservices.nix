@@ -24,7 +24,7 @@
             };
         };
 
-        services.fwupd = {
+        fwupd = {
             enable = true;
         };
     };
