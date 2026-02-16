@@ -23,5 +23,9 @@
                 HandleLidSwitchDocked = "ignore";
             };
         };
+
+        services.fwupd = {
+            enable = true;
+        };
     };
 }
