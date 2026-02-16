@@ -24,8 +24,8 @@
             };
         };
 
-        fwupd = {
-            enable = true;
-        };
+        # fwupd = {
+        #     enable = true;
+        # };
     };
 }
