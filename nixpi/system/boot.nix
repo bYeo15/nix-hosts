@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 {
-    boot.loader.raspberryPi.bootloader = "kernel";
+    boot.loader.raspberry-pi.bootloader = "kernel";
 
     boot.kernel.sysctl = {
         "net.ipv4.conf.default.forwarding" = 1;
