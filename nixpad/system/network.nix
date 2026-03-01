@@ -21,8 +21,6 @@
             trustedInterfaces = [ "tun0" "docker0" ];
         };
 
-        resolvconf.enable = false;
-
         useDHCP = lib.mkDefault true;
     };
 
