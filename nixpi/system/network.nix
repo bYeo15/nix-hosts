@@ -49,7 +49,7 @@
 
         ensureProfiles.environmentFiles = [ config.age.secrets.netSecrets.path ];
 
-        insertNameservers = [ "1.1.1.1" "1.0.0.1" ];
+        appendNameservers = [ "1.1.1.1" "1.0.0.1" ];
 
         plugins = lib.mkForce [ ];
 
