@@ -2,7 +2,6 @@
 
 {
     imports = [
-        ./dnsmasq.nix
         ./openssh.nix
         ./pihole.nix
     ];
