@@ -49,8 +49,6 @@
 
         ensureProfiles.environmentFiles = [ config.age.secrets.netSecrets.path ];
 
-        appendNameservers = [ "1.1.1.1" "1.0.0.1" ];
-
         plugins = lib.mkForce [ ];
 
         wifi.powersave = false;
