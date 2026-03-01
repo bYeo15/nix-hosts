@@ -39,8 +39,6 @@
             '';
         };
 
-        resolvconf.enable = false;
-
         useDHCP = lib.mkDefault true;
     };
 

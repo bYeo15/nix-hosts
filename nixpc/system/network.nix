@@ -6,8 +6,6 @@
     networking = {
         hostName = "nixpc";
 
-        resolvconf.enable = false;
-
         useDHCP = lib.mkDefault true;
     };
 
