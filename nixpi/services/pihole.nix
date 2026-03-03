@@ -21,6 +21,14 @@
         };
 
         privacyLevel = 3;
+
+        lists = [
+            {
+                url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt";
+                type = "block";
+                description = "hagezi pro++ blocklist (aggressive)";
+            }
+        ];
     };
 
     services.pihole-web = {
