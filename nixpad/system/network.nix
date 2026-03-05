@@ -30,5 +30,7 @@
         ensureProfiles.environmentFiles = [ config.age.secrets.netSecrets.path ];
 
         ensureProfiles.profiles = extlib.filterTagged "profile" [ "home" "external" ] config.netConn.connections;
+
+        appendNameservers = [ "1.1.1.1" "1.0.0.1" ];
     };
 }
