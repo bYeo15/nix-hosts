@@ -2,6 +2,4 @@
 
 {
     hardware.graphics.enable = true;
-
-    programs.light.enable = true;
 }

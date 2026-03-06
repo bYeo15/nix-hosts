@@ -7,6 +7,7 @@
         npins
 
         zcfan
+        brightnessctl
 
         helix
 
