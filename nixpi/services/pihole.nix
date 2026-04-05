@@ -24,7 +24,7 @@
 
         lists = [
             {
-                url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt";
+                url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt";
                 type = "block";
                 description = "hagezi pro++ blocklist (aggressive)";
             }
